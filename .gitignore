@@ -1,4 +1,8 @@
 .DS_STORE
 .jshintrc
+.sass-cache
+assets/sass/bourbon
+assets/sass/base
+*.css.map
 
 bower_components

@@ -1,0 +1,39 @@
+header {
+  height: 3.62rem;
+  padding: 0.8125rem 3rem;
+  background-color: #393939;
+  @include clearfix;
+
+  .logo {
+    float: left;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #FF5A09;
+  }
+
+  .header-nav {
+    float: right;
+    @include clearfix;
+
+    li {
+      float: left;
+      margin-right: 1.5rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      font-size: 1.25rem;
+      padding: 0.25rem 0;
+      font-weight: 300;
+      cursor: pointer;
+      color: #FF5A09;
+
+      &:hover {
+        color: #F3843E;
+      }
+    }
+  }
+}
