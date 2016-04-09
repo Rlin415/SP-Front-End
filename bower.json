@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "angular-ui-router": "^0.2.18",
-    "angular": "^1.5.3"
+    "angular": "^1.5.3",
+    "lightbox2": "^2.8.2"
   }
 }
