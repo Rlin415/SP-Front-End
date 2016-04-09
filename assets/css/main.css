@@ -6,7 +6,7 @@ button, [type='button'], [type='reset'], [type='submit'] {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Monsterrat", "sans-serif";
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
@@ -46,7 +46,7 @@ input,
 select,
 textarea {
   display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Monsterrat", "sans-serif";
   font-size: 1em; }
 
 [type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea,
@@ -151,7 +151,7 @@ th {
 
 body {
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Monsterrat", "sans-serif";
   font-size: 1em;
   line-height: 1.5; }
 
@@ -161,7 +161,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Monsterrat", "sans-serif";
   font-size: 1.25em;
   line-height: 1.2;
   margin: 0 0 0.75em; }
@@ -193,7 +193,7 @@ body, html {
 header {
   height: 3.62rem;
   padding: 0.8125rem 3rem;
-  background-color: #393939; }
+  background-color: #00CBE9; }
   header::after {
     clear: both;
     content: "";
@@ -202,7 +202,7 @@ header {
     float: left;
     font-size: 1.25rem;
     font-weight: 300;
-    color: #FF5A09; }
+    color: #FFF; }
   header .header-nav {
     float: right; }
     header .header-nav::after {
@@ -219,13 +219,13 @@ header {
       padding: 0.25rem 0;
       font-weight: 300;
       cursor: pointer;
-      color: #FF5A09; }
+      color: #FFF; }
       header .header-nav a:hover {
-        color: #F3843E; }
+        color: #FDA833; }
 
 .about {
   display: flex;
-  background-color: #6E6E6E;
+  background-color: #FFF;
   height: 100%;
   width: 100%;
   align-items: center;
@@ -240,11 +240,26 @@ header {
       font-weight: 300;
       cursor: pointer;
       padding: 0.75rem 2rem;
-      background-color: #FF5A09; }
-  .about h3 {
+      background-color: #D40E52; }
+  .about .content {
     text-align: center;
-    font-weight: 200;
-    color: #FF9900;
-    margin-bottom: 10rem; }
+    margin-bottom: 3rem; }
+    .about .content .image {
+      width: 50%;
+      height: 50%; }
+
+.demo {
+  display: flex;
+  background-color: #C3DAE3;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+  .demo .demo-images {
+    text-align: center; }
+  .demo img {
+    cursor: pointer;
+    width: 60%;
+    height: 10rem; }
 
 /*# sourceMappingURL=main.css.map */
