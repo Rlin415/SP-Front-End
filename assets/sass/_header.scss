@@ -1,13 +1,14 @@
 header {
   height: 3.62rem;
   padding: 0.8125rem 3rem;
-  background-color: $turquoise;
+  background-color: $aqua;
   @include clearfix;
 
   .logo {
+    font-family: 'Montserrat', 'sans-serif';
     float: left;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 700;
     color: #FFF;
   }
 
@@ -27,12 +28,11 @@ header {
     a {
       font-size: 1.25rem;
       padding: 0.25rem 0;
-      font-weight: 300;
       cursor: pointer;
       color: #FFF;
 
       &:hover {
-        color: $burnt-orange;
+        color: darken($aqua, 20%);;
       }
     }
   }

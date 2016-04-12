@@ -6,7 +6,7 @@ button, [type='button'], [type='reset'], [type='submit'] {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Monsterrat", "sans-serif";
+  font-family: "Ubuntu", "sans-serif";
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
@@ -46,7 +46,7 @@ input,
 select,
 textarea {
   display: block;
-  font-family: "Monsterrat", "sans-serif";
+  font-family: "Ubuntu", "sans-serif";
   font-size: 1em; }
 
 [type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea,
@@ -151,7 +151,7 @@ th {
 
 body {
   color: #333;
-  font-family: "Monsterrat", "sans-serif";
+  font-family: "Ubuntu", "sans-serif";
   font-size: 1em;
   line-height: 1.5; }
 
@@ -161,7 +161,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Monsterrat", "sans-serif";
+  font-family: "Ubuntu", "sans-serif";
   font-size: 1.25em;
   line-height: 1.2;
   margin: 0 0 0.75em; }
@@ -199,9 +199,10 @@ header {
     content: "";
     display: block; }
   header .logo {
+    font-family: 'Montserrat', 'sans-serif';
     float: left;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 700;
     color: #FFF; }
   header .header-nav {
     float: right; }
@@ -217,15 +218,14 @@ header {
     header .header-nav a {
       font-size: 1.25rem;
       padding: 0.25rem 0;
-      font-weight: 300;
       cursor: pointer;
       color: #FFF; }
       header .header-nav a:hover {
-        color: #FDA833; }
+        color: #007283; }
 
 .about {
   display: flex;
-  background-color: #FFF;
+  background-color: #C3DAE3;
   height: 100%;
   width: 100%;
   align-items: center;
@@ -240,13 +240,17 @@ header {
       font-weight: 300;
       cursor: pointer;
       padding: 0.75rem 2rem;
-      background-color: #D40E52; }
-  .about .content {
+      background-color: #00CBE9; }
+      .about .button-wrapper a:hover {
+        color: #007283; }
+  .about .intro {
     text-align: center;
     margin-bottom: 3rem; }
-    .about .content .image {
-      width: 50%;
-      height: 50%; }
+    .about .intro .image {
+      width: 70%;
+      height: 70%; }
+  .about .content {
+    margin-top: 2rem; }
 
 .demo {
   display: flex;
