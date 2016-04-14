@@ -1,0 +1,49 @@
+header {
+  height: 6rem; //3.62
+  padding: 0.8125rem 3rem;
+  background-color: #FFF;
+  border-bottom-style: solid;
+  border-bottom-color: #666666;
+  border-bottom-width: thin;
+  @include clearfix;
+
+  .logo {
+    font-family: 'Montserrat', 'sans-serif';
+    float: left;
+    font-size: 3rem; // 1.25
+    font-weight: 700;
+
+    .stitch {
+      color: #3e84c4;
+    }
+
+    .planet {
+      color: #E49039;
+    }
+  }
+
+  .header-nav {
+    float: right;
+    @include clearfix;
+
+    li {
+      float: left;
+      margin-right: 1.5rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      font-size: 3rem;
+      padding: 0.25rem 0;
+      cursor: pointer;
+      color: #666666;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}

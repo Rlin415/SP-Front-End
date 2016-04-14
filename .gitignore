@@ -6,3 +6,4 @@ assets/sass/base
 *.css.map
 
 bower_components
+node_modules
