@@ -7,10 +7,23 @@
   align-items: center;
   justify-content: center;
 
+
+  @media screen and (max-height: 768px) {
+    padding-top: 8rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
+
   .content {
     text-align: center;
     margin: 0;
     margin-top: -8rem;
+
+    @media screen and (min-height: 900px) {
+      margin-top: -20rem;
+    }
   }
 
   .title {
@@ -23,7 +36,7 @@
   .button-wrapper {
     position: relative;
     top: 10rem;
-    left: 1.5rem;
+    left: 1.2rem;
     a {
       color: #666666;
       font-weight: 300;
@@ -38,6 +51,7 @@
 
       &:hover {
         color: #000;
+        text-decoration: none;
       }
     }
   }

@@ -5,3 +5,13 @@ body, html {
   margin: 0;
   overflow: auto;
 }
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}

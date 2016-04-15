@@ -1,9 +1,5 @@
-@import 'bourbon/bourbon';
-@import 'base/base';
-@import 'neat/neat';
+@import 'bootstrap-sass/_bootstrap.scss';
 
 @import '_core.scss';
 @import '_header.scss';
 @import '_about.scss';
-@import '_demo.scss';
-@import '_modal.scss';
